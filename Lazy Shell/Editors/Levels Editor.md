@@ -6,7 +6,7 @@ These are all explained in the individual tab descriptions below.
    
 # Level Index
 
-![[Pasted image 20230425073951.png]]
+![[../../images/Pasted image 20230425073951.png]]
 
 Select the level to edit by name. The name is based on a label assigned by either the default or user-defined label. Edit the level's name/label by clicking on the label button to the right.
 
@@ -21,7 +21,7 @@ Select the level to edit by name. The name is based on a label assigned by eithe
 
 # Maps
 The "MAPS" tab contains all the properties of a level's map.
-<span class="rightimg"><span class="smallimg"> ![[Pasted image 20230425115252.png]] </span></span>
+<span class="rightimg"><span class="smallimg"> ![[../../images/Pasted image 20230425115252.png]] </span></span>
 The map is the collection of properties that set the tilemaps, palette, and tilesets for the level. 
 
 Each level is assigned a "Map #" with all of the properties in the "MAPS" tab.
@@ -36,7 +36,7 @@ Many levels use the same map as other levels, such as the Booster Tower levels, 
 
 If the boundaries are not set, then often when Mario walks to the far edge of a level, another part of the level's map which constitutes a different level can be seen. 
 
-<span class="rightimg"><span class="tinyimg"> ![[images/Pasted image 20230427122054.png]] </span></span>
+<span class="rightimg"><span class="tinyimg"> ![[../../images/Pasted image 20230427122054.png]] </span></span>
 
 | Property      | Description                                                                                                                                                                                                                                                                                                   |
 |:------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ If the boundaries are not set, then often when Mario walks to the far edge of a 
 | GFX Set 5     | The 5th graphic set in the current map.                                                                                                                                                                                                                                                                       |
 | L3 GFX Set    | The graphic set used by Layer 3 in the current map. This is in 2bpp format.                                                                                                                                                                                                                                   |
 
-<span class="rightimg"><span class="mediumimg"> ![[Pasted image 20230427122604.png]]</span></span>
+<span class="rightimg"><span class="mediumimg"> ![[../../images/Pasted image 20230427122604.png]]</span></span>
 
 | Property | Description |
 |-----------|-------------|
@@ -55,7 +55,7 @@ If the boundaries are not set, then often when Mario walks to the far edge of a 
 | L2 Tileset    | The tileset used by Layer 2 in the current map.                                                                                                                                                                                                                                                               |
 | L3 Tileset    | The tileset used by Layer 3 in the current map.                                                                                                                                                                                                                                                               |
 
-<span class="rightimg"> ![[Pasted image 20230427123256.png]] <span class="smallimg"> </span></span>
+<span class="rightimg"> ![[../../images/Pasted image 20230427123256.png]] <span class="smallimg"> </span></span>
 
 | Property | Description |
 |-----------|-------------|
@@ -67,7 +67,7 @@ If the boundaries are not set, then often when Mario walks to the far edge of a 
 | Battlefield   | The battlefield is the background image used by any battles that are encountered in the level. A level is assigned a battlefield "set" or a group of battlefields from which one is manually selected through an event script.                                                                                |
 
 
-<span class="rightimg"> ![[Pasted image 20230427123449.png]] <span class="smallimg"> </span></span>
+<span class="rightimg"> ![[../../images/Pasted image 20230427123449.png]] <span class="smallimg"> </span></span>
 
 | Property | Description |
 |-----------|-------------|
@@ -77,7 +77,7 @@ If the boundaries are not set, then often when Mario walks to the far edge of a 
 
 # Layer
 
-<span class="rightimg"><span class="smallimg"> ![[Pasted image 20230425145539.png]]</span></span>
+<span class="rightimg"><span class="smallimg"> ![[../../images/Pasted image 20230425145539.png]]</span></span>
 The "LAYER" tab contains all the properties of and effects applied to the level's layers. 
 
 A level's layers are collections of graphics from the rom associated with a level. Possible layers for each map include.
@@ -95,7 +95,7 @@ editor. In order for a message to show, either the "SHOW MESSAGE" must be enable
 Layer priorities define an order of percedence for how layers are drawn in a level. Like how a table might have a shadow under it but the table should always be drawn on top of the shadow. This is a set through the layer priorities
 
 ### Priority Set
-<span class="rightimg"> ![[Pasted image 20230425150206.png]] <span class="smallimg"> </span></span>
+<span class="rightimg"> ![[../../images/Pasted image 20230425150206.png]] <span class="smallimg"> </span></span>
 A set of properties that handles how the layers of the level are drawn. Note that editing the properties in the "Layer Priority" box for the currently set Priority Set will affect all other levels that use the same Priority Set.
 #### Mainscreen
 refers to the layers that are drawn opaquely (ie. normally without 'see-through' effects).
@@ -120,7 +120,7 @@ refers to the layers that the subscreen will appear over. If nothing is enabled 
 In reference to the other "Layer Priority" properties, anything referring to an either/or case of subtracting or adding is referring to the "Mode" property.
 
 Each button in the Layer Priorities section is listed in the table below next to a copy of the image from the last heading for visibility
-<span class="rightimg"> ![[Pasted image 20230425150206.png]] <span class="smallimg"> </span></span>
+<span class="rightimg"> ![[../../images/Pasted image 20230425150206.png]] <span class="smallimg"> </span></span>
 
 | Form Element   | Description                                                       |     | 
 | -------------- | ----------------------------------------------------------------- | --- |
@@ -139,9 +139,9 @@ Each button in the Layer Priorities section is listed in the table below next to
 | BG Color Math  | Add / subtract subscreen from background layer of the mainscreen. |     |
 
 ## Layer Mask Edges Section
-The layer mask sets the viewable boundaries of the level. Anything beyond these boundaries will not appear in-game.  Click the orange box in the toolstrip to show the layer mask. ![[Pasted image 20230427142652.png]]
+The layer mask sets the viewable boundaries of the level. Anything beyond these boundaries will not appear in-game.  Click the orange box in the toolstrip to show the layer mask. ![[../../images/Pasted image 20230427142652.png]]
 
-<span class="rightimg"> ![[Pasted image 20230425150427.png]]</span>
+<span class="rightimg"> ![[../../images/Pasted image 20230425150427.png]]</span>
 
 | Form Element | Description | 
 | ------------ | ----------- |
@@ -154,7 +154,7 @@ The layer mask sets the viewable boundaries of the level. Anything beyond these 
 ## Layer -(X,Y) Shifting Section
 This section is where you can modify the scrolling behavior of a layer. Most scrolling layers are found in levels where animated effects are happening on the map. Think stuff like the fog blowing south west in smithy's factory.
 
-<span class="rightimg"> ![[Pasted image 20230427172015.png]]</span>
+<span class="rightimg"> ![[../../images/Pasted image 20230427172015.png]]</span>
 
 | Form Element | Description |
 |-----------------|-------------|
@@ -167,13 +167,13 @@ This section is where you can modify the scrolling behavior of a layer. Most scr
 
 
 ## Layer Scrolling Wrap
-<span class="rightimg">![[Pasted image 20230427172311.png]]</span>
+<span class="rightimg">![[../../images/Pasted image 20230427172311.png]]</span>
 Scrolling layers will wrap around infinitely. For practical purposes, "horizontal" and "vertical" are generally checked together for a layer if either one is checked at all.
 
 **NOTE: This is ignored if "Speed" in the "Layer Auto-scrolling" box for the layer is set to (none).**
 
 ## Layer Scrolling Synchronization
-<span class="rightimg">![[Pasted image 20230427172815.png]]</span>
+<span class="rightimg">![[../../images/Pasted image 20230427172815.png]]</span>
 ### L2 Vertical Synchronization
 The amount of layer 2's desynchronization when Mario walks up/down. This refers to the speed in which the screen scrolls up/down in the opposite direction when Mario walks up/down. This rarely used. Example: in Bowser's Castle in the throne room, where the Chandeliers (layer 2) have a "Low" horizontal and vertical desync value. This means the chandeliers will move left more slowly when Mario walks to the right, and move right slowly when Mario walks left. The same applies vertically.
 ### L2 Horizontal Synchronization
@@ -185,7 +185,7 @@ The amount of layer 3's desynchronization when Mario walks left/right. This refe
 
 Extra credit if you can figure out wtf the `Culex` boxes do. 
 ## Layer Auto-Scrolling
-<span class="rightimg">![[Pasted image 20230427172912.png]]</span>
+<span class="rightimg">![[../../images/Pasted image 20230427172912.png]]</span>
 
 | Form Element| Description |
 |----------------|--------------|
@@ -201,7 +201,7 @@ Extra credit if you can figure out wtf the `Culex` boxes do.
 |Sprites Animation Effects|The various animation effects that are applied to sprites and other layers.|
    
 # NPCs
-<span class="rightimg">![[Pasted image 20230427174535.png]]</span>
+<span class="rightimg">![[../../images/Pasted image 20230427174535.png]]</span>
 An "NPC" is a "non- playable character", or generally referred to as sprites although the use of the word "sprites" for this may be misleading since most NPCs do not correspond to the sprite index. 
 
 Add, remove, duplicate, cut, copy, paste NPCs or NPC clones using the toolstrip above the NPC collection. 
@@ -209,7 +209,7 @@ Add, remove, duplicate, cut, copy, paste NPCs or NPC clones using the toolstrip 
 You will notice in the NPC collection treeview some NPCs have child nodes, which here are referred to as "Clones" of an NPC. An NPC clone is an NPC that shares all of the same properties of its parent NPC (ie. the NPC it is an instance of) save for those fields not disabled when a clone is selected. Each clone has its own coords.
 
 Only up to 3 NPCs may contain clones. Clones *must* come first in the collection and *must* use gridplane format sprites for the partition to store them to the video memory's clone buffer properly.
-![[Pasted image 20230427182503.png]]
+![[../../images/Pasted image 20230427182503.png]]
 - **NPC Collection:** The collection of NPCs in the level.
 - **Partition:** Set the level's partition packet.
 - **Partition:** Browser Find a partition with specific properties.
